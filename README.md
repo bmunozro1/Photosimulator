@@ -2,7 +2,11 @@
 
 ## photokineticanalysis.py
 
-### PhotokineticAnalysis()
+```
+
+PhotokineticAnalysis()
+  
+```
 
 #### Functions:
 
@@ -69,9 +73,15 @@ PhotokineticAnalysis.calculate_experimental()
 # photokineticanalysis.py
 
 
-## ChemotaxisSimulation()
-
  
+```
+
+ChemotaxisSimulation()
+  
+```
+
+### Functions:
+
 ```
 
 ChemotaxisSimulation.cell_movement()

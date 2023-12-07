@@ -8,6 +8,7 @@
 
 '''
   check()
+  
 '''
   
   Checks that the inputs for the calculate_theoretical function are correct

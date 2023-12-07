@@ -8,14 +8,19 @@
 
 ```
 
-  check()
+PhotokineticAnalysis.check()
   
 ```
   
   Checks that the inputs for the calculate_theoretical function are correct
   
   
-  calculate_theoretical()
+ 
+```
+
+PhotokineticAnalysis.calculate_theoretical()
+  
+```
   
   This section allows for calculating theoretical photouncaging values using the following first order kinetic equation for photouncaging: 
   
@@ -35,8 +40,13 @@
   *   Table of x and corresponding y values (normalized to 1)
   *   Graph of theoretical data
 
-### calculate_experimental(): Calculating kinetic constant from laboratory photokinetics data 
+
+```
+
+PhotokineticAnalysis.calculate_experimental()
   
+```
+
   This section allows for calculating the photouncaging constant k using the first order kinetic equation:
   
   $Y = {Y_o} + (plateau-{Y_o})(1-exp(-K*x))$
@@ -57,8 +67,16 @@
   *   Graph of theoretical data
 
 # photokineticanalysis.py
+
+
 ## ChemotaxisSimulation()
-### cell_movement(): 
+
+ 
+```
+
+ChemotaxisSimulation.cell_movement()
+  
+```
 
   This section allows for modeling cell migration in 2D. It is based off of a stochastic compartment model developed by Fadai et al. 2019. 
   
@@ -80,7 +98,12 @@
   
   * n * m matrix with final cell positions
 
-## simulate(): 
+ 
+```
+
+ChemotaxisSimulation.simulate()
+  
+```
 
   This function plots cell position over time and saves a movie file. 
   

@@ -1,5 +1,12 @@
 # Photosimulator
 
+To install Photosimulator enter the following:
+
+```
+pip install Photosimulator
+
+```
+
 ## photokineticanalysis.py
 
 ```

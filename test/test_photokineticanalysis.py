@@ -9,7 +9,7 @@ Created on Thu Dec  7 13:02:26 2023
 #%%
 import numpy as np
 import unittest
-from src.photokineticanalysis import PhotokineticAnalysis
+from photokineticanalysis import PhotokineticAnalysis
 
 #%%
 

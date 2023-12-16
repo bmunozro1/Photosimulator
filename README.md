@@ -1,6 +1,6 @@
 # Photosimulator
 
-To install Photosimulator enter the following:
+To install Photosimulator enter the following (or it can be found https://pypi.org/project/Photosimulator/):
 
 ```
 pip install Photosimulator

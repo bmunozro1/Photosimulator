@@ -52,7 +52,7 @@ class TestChemotaxisSimulation(unittest.TestCase):
       file_exists = os.path.isfile('fig1.gif')
       self.assertIsNone(result)
       self.assertTrue(file_exists)
-      #os.remove('fig1.gif')
+      os.remove('fig1.gif')
       
 
 
